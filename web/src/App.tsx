@@ -44,6 +44,9 @@ export default function App() {
         <button data-testid="btn-increment" onClick={() => run("increment", api.increment)}>
           Increment
         </button>
+        <button data-testid="btn-qaw-slack-pr-1792184208746" onClick={() => run("qaw-slack-pr-1792184208746", api.increment)}>
+          QAW Slack PR 1792184208746
+        </button>
         <button data-testid="btn-decrement" onClick={() => run("decrement", api.decrement)}>
           Decrement
         </button>
